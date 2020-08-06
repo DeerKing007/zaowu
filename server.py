@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 @app.route("/zaowu/index")
-def spiderBot():
+def zaoWu():
     '''首页'''
     return render_template('index.html')
 
