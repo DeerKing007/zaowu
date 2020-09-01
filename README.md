@@ -11,4 +11,4 @@ zaowu app UI design
 
 # Docker运行方式：
 
-1.生产环境运行 | sudo docker run -d -p 5001:5001 --name zaowu
+1.生产环境运行 | sudo docker run -itd -p 5001:5001 zhangpeng0v0/zaowu
